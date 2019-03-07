@@ -14,7 +14,6 @@ lines.forEach((line, index) => {
 
 while (game.itRemainsMoves()) {
   game.move();
-  game.printBoard();
 }
 
 /* eslint-disable no-console */
